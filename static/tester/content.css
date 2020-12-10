@@ -1,0 +1,58 @@
+h1 {
+    color: black;
+    font-size: 24pt;
+    text-align: center;
+    font-weight: bold;
+    padding:15pt;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  table {
+      width: 33%;
+      border-collapse: collapse;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  td{
+      text-align: center;
+      font-size: 16pt;
+      color: #6177db;
+  }
+
+  th{
+      font-size: 24pt;
+      text-align: center;
+      font-weight: bold;
+      background-color: #6177db;
+  }
+  h4 {
+    color: black;
+    font-size: 8pt;
+    text-align: center;
+    font-weight: bold;
+    padding:1pt;
+  }
+
+  body {
+    background-color:rgb(202, 202, 202);
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    width: 50%;
+    background-color: #4c5eaf;
+    color: black;
+    padding: 12px;
+    border: 3pt;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add a background color to the submit button on mouse-over */
+  input[type=submit]:hover {
+    background-color: #6177db;
+  }

@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html> 
+<html>
+  <link rel="stylesheet" type="text/css"  href="{% static 'tester/content.css' %}">
+  <h1>Here is the results for your email</h1>
+  <h1>{{ email }}</h1>
+  <body>
+    <table>
+      <th>Breached Company Name</th>
+      {% for k in data %}
+        {% for item in k %}
+        <tr>
+          <td>{{ item }}</td>
+        </tr>
+        {%endfor%}
+      {%endfor%}
+    </table>
+    <h4>This action is powered by the Have I Been Pawn'd API</h4>
+    <form method:"POST" action={% url 'tester:signin' %}>
+      <input type="submit" value='Log Out'/>
+    </form>
+  </body>
+</html>

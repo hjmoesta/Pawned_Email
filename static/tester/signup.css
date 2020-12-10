@@ -1,0 +1,67 @@
+/* Style inputs */
+input[type=text], select {
+    width: 100%;
+    color: black;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: rgb(202, 202, 202);
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  h1 {
+    color: black;
+    font-size: 36pt;
+    text-align: center;
+    font-weight: bold;
+    padding:30pt;
+  }
+
+  h2 {
+    color: black;
+    font-size: 24pt;
+    text-align: center;
+    font-weight: bold;
+    padding:15pt;
+  }
+
+  h4 {
+    color: black;
+    font-size: 12pt;
+    text-align: center;
+  }
+
+  /*formatting the labels*/
+  label {
+    color: black;
+    font-size: 18pt;
+    font-weight: bold;
+  }
+
+  /*formatting the body*/
+  body {
+    text-align: center;
+    background-color:rgb(202, 202, 202);
+    margin: auto;
+    width: 50%;
+    padding: 50pt;
+  }
+
+  /* Style the submit button */
+  input[type=submit] {
+    width: 50%;
+    background-color: #4c5eaf;
+    color: black;
+    padding: 12px;
+    border: 3pt;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add a background color to the submit button on mouse-over */
+  input[type=submit]:hover {
+    background-color: #6177db;
+  }

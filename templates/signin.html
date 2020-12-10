@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css"  href="{% static 'tester/signup.css' %}">
+<form method="POST" action= {% url 'tester:signin_success' %}> 
+  {% csrf_token %}
+<body>
+  <h1>{{prompt}}</h1>
+  <input type="text" name="email" placeholder="example@provider.com">
+  <input type="text" name="password" placeholder="password">
+  <input type="submit" value='Login'>
+</form>
+<form method:"POST" action={% url 'tester:signup' %}>
+  <h4>Don't have an account?</h4>
+  <input type="submit" value='Sign Up'/>
+</form>
+</body>
+
+</html>
